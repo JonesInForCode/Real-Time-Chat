@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div id="chat-container">
-    <div id="messages">
+    <div id="chat-container">
+        <div id="messages"></div>
+        <div id="input-area">
+            <input type="text" id="input-msg" placeholder="Type your message...">
+            <button id="send-msg-btn">Send</button>
+        </div>
     </div>
-    <div id="input-area">
-        <input type="text" id="input-msg" placeholder="Type your message...">
-        <button id="send-msg-btn">Send</button>
-    </div>
-</div>
-<script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
