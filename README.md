@@ -9,14 +9,18 @@ I wanted to create a real-time chat application that not only works great but al
 ## Project Structure 📂
 
 Here's how this project is laid out:
+
+```
 real-time-chat/
 ├── resources/
 │   └── static/
-│       ├── index.html      # Main HTML file
-│       ├── styles.css      # Custom CSS with dark theme
-│       ├── script.js       # Main JavaScript file
-│       └── Message.js      # Message component
-└── README.md               # Project documentation
+│       ├── index.html     # Main HTML file
+│       ├── styles.css     # Custom CSS with dark theme
+│       ├── script.js      # Main JavaScript file
+│       └── Message.js     # Message component
+└── README.md             # Project documentation
+```
+
 ## The Cool Stuff 😎
 
 ### Modular JavaScript Components
